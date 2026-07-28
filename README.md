@@ -146,7 +146,9 @@ http://localhost:4200
 
 ## Demo
 
-A short demo video demonstrating the application is included with the submission.
+Demo Video: 
+
+https://drive.google.com/file/d/1w-uVr-G8nHju4X_JacuzEYLcAtb4IIxX/view?usp=sharing
 
 ---
 
