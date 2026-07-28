@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34C445FB-F658-47FA-AA6F-0ACCBA0B5382}|TaskManager.API\\TaskManager.API.csproj|c:\\users\\mohamed zakaria\\onedrive\\desktop\\taskmanagerproject\\taskmanager\\taskmanager.api\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34C445FB-F658-47FA-AA6F-0ACCBA0B5382}|TaskManager.API\\TaskManager.API.csproj|solutionrelative:taskmanager.api\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FFB15450-F611-4AD3-BD10-6711294B7BF8}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|c:\\users\\mohamed zakaria\\onedrive\\desktop\\taskmanagerproject\\taskmanager\\taskmanager.infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FFB15450-F611-4AD3-BD10-6711294B7BF8}|TaskManager.Infrastructure\\TaskManager.Infrastructure.csproj|solutionrelative:taskmanager.infrastructure\\repositories\\taskitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5E65A6-0421-4455-B623-9CFFC4FB9E3D}|TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\mohamed zakaria\\onedrive\\desktop\\taskmanagerproject\\taskmanager\\taskmanager.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5E65A6-0421-4455-B623-9CFFC4FB9E3D}|TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:taskmanager.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7E5E65A6-0421-4455-B623-9CFFC4FB9E3D}|TaskManager.Application\\TaskManager.Application.csproj|c:\\users\\mohamed zakaria\\onedrive\\desktop\\taskmanagerproject\\taskmanager\\taskmanager.application\\dtos\\taskitem\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E5E65A6-0421-4455-B623-9CFFC4FB9E3D}|TaskManager.Application\\TaskManager.Application.csproj|solutionrelative:taskmanager.application\\dtos\\taskitem\\taskitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "RelativeDocumentMoniker": "TaskManager.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "ToolTip": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "RelativeToolTip": "TaskManager.Infrastructure\\Repositories\\TaskItemRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:22:04.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "TaskManager.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "TaskManager.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:20:30.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TaskItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.Application\\DTOs\\TaskItem\\TaskItemDto.cs",
+              "RelativeDocumentMoniker": "TaskManager.Application\\DTOs\\TaskItem\\TaskItemDto.cs",
+              "ToolTip": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.Application\\DTOs\\TaskItem\\TaskItemDto.cs",
+              "RelativeToolTip": "TaskManager.Application\\DTOs\\TaskItem\\TaskItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:20:05.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.API\\Controllers\\TaskItemsController.cs",
+              "RelativeDocumentMoniker": "TaskManager.API\\Controllers\\TaskItemsController.cs",
+              "ToolTip": "C:\\Users\\mohamed zakaria\\OneDrive\\Desktop\\TaskManagerProject\\TaskManager\\TaskManager.API\\Controllers\\TaskItemsController.cs",
+              "RelativeToolTip": "TaskManager.API\\Controllers\\TaskItemsController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAAADkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-27T23:05:22.043Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
