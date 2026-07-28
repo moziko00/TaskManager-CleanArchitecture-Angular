@@ -1,0 +1,70 @@
+<div class="container mt-4">
+
+  <h2>{{ isEdit ? 'Edit Task' : 'Add Task' }}</h2>
+
+  <form [formGroup]="taskForm" (ngSubmit)="saveTask()">
+
+    <div class="mb-3">
+      <label class="form-label">Title</label>
+      <input
+        type="text"
+        class="form-control"
+        formControlName="title">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Description</label>
+      <textarea
+        rows="4"
+        class="form-control"
+        formControlName="description"></textarea>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Status</label>
+
+      <select class="form-select" formControlName="status">
+        <option [value]="0">Pending</option>
+        <option [value]="1">In Progress</option>
+        <option [value]="2">Completed</option>
+      </select>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Due Date</label>
+
+      <input
+        type="date"
+        class="form-control"
+        formControlName="dueDate">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Project</label>
+
+      <select class="form-select" formControlName="projectId">
+
+        <option value="">Select Project</option>
+
+        <option
+          *ngFor="let project of projects"
+          [value]="project.id">
+
+          {{ project.name }}
+
+        </option>
+
+      </select>
+    </div>
+
+    <button
+      type="submit"
+      class="btn btn-primary">
+
+      {{ isEdit ? 'Update' : 'Save' }}
+
+    </button>
+
+  </form>
+
+</div>

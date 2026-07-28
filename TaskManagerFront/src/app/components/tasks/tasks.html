@@ -1,0 +1,62 @@
+<div class="container mt-5">
+
+    <div class="d-flex justify-content-between mb-3">
+        <h2>Tasks</h2>
+
+        <button
+            class="btn btn-primary"
+            routerLink="/tasks/new">
+
+            Add Task
+
+        </button>
+    </div>
+
+    <table class="table table-bordered">
+
+        <thead class="table-dark">
+            <tr>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Status</th>
+                <th>Project Name</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+
+        @for(task of tasks; track task.id){
+
+            <tr>
+
+                <td>{{task.title}}</td>
+                <td>{{task.description}}</td>
+                <td>{{ getStatusName(task.status) }}</td>
+                <td>{{ task.projectName }}</td>
+
+                <td>
+
+                    <a
+                        class="btn btn-warning btn-sm"
+                        [routerLink]="['/tasks/edit', task.id]">
+                        Edit
+                    </a>        
+                    
+                    <a
+                        class="btn btn-danger btn-sm"
+                        (click)="deleteTask(task.id)">
+                        Delete
+                    </a>  
+
+                </td>
+
+            </tr>
+
+        }
+
+        </tbody>
+
+    </table>
+
+</div>
